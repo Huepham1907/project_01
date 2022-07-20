@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: inherit, sans-serif;
+    
+}
+ /* nav-bar */
+.container {
+    position: relative;
+    background-color: #003580;
+    max-width: 100%;
+    height: 18rem;
+  }
+  
+  .logo-container {
+    margin: 2rem 2.5rem 0;
+  }
+  
+  .list-container {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  .nav-right-container {
+    display: flex;
+    margin: 0 50rem;
+  }
+  
+ 
+
+.btn-currency {
+    color: #fff;
+    margin-top: 3.5rem;
+    margin-left: 15rem;
+    background-color: #003580;
+    font-size: 1.5rem;
+    font-weight: 5rem;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0 20px;
+  }
+  
+  
+  .btn-language img {
+    margin-top: 3rem;
+    margin-right: rem;
+    width:4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0 5px;
+    
+  }
+  
+  .btn-customer-service {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0 20px;
+  }
+
+  .btn-item-list {
+    margin-left: 82rem;
+    margin-top: -7rem;
+  }
+  .btn-property {
+    background-color: #003580;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    
+  }
+  
+  .btn-register { 
+    margin-top: 3rem;
+    margin-left: 20rem;
+    margin-right: 1rem;
+    color: #003580;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 8px 14px;
+    font-weight: 600;
+    
+    
+  }
+  
+  .btn-sign_in {
+    padding: 8px 14px;
+    color: #003580;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: 600;
+    
+  }
+
+  /* menu-container*/
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .menu-container ul {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 5rem;
+  }
+  
+  li {
+    margin: 1rem 1.5rem;
+  }
+  
+  li a {
+    color: #fff;
+  }
+  
+  svg {
+    fill: #fff;
+  }
+  
+.booking-content .logo-cover img {
+width: 50rem;
+margin-left: 20rem;
+}
+
+.manage-booking {
+    margin-left: 75rem;
+    margin-top: -30rem;
+    border: 1px solid rgb(232, 229, 229);
+    padding: 2rem 2rem;
+    height: 40rem;
+}
+
+.my-booking h3 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.my-booking p {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+}
+.email input {
+width: 90%;
+height: 3.5rem;
+margin-top: 1rem;
+}
+.number input {
+width: 90%;
+height: 3.5rem;
+margin-top: 1rem;
+}
+
+.email span {
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+.number span {
+    font-size: 1.3rem;
+    font-weight: 550;
+}
+
+.number {
+    margin-top: 1rem;
+}
+
+.btn-find span {
+    cursor: pointer;
+}
+.btn-find {
+    margin-top: 1rem;
+    color: #0071c2;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.btn-find-booking {
+    width: 90%;
+    height: 3.5rem;
+    margin-top: 1rem;
+    background-color:#0071c2 ;
+    border: none;
+    color: #fff;
+
+}
+
+.info {
+    width: 100%;
+    height: 7rem;
+    background-color: #003580;
+}
+
+.info ul {
+    display: flex;
+}
+
+.info li:hover {
+    text-decoration: underline;
+}
+
+.info li {
+   margin-top: 3rem;
+    font-size: 1.4rem;
+}
+
+.copyright { 
+    margin-top: 2rem;
+}
+.copyright p {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 22px;
+
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 32rem;
+    margin-top: 65rem;
+}
+
+.agency ul {
+display: flex;
+margin: 0 auto;
+}
+
+.agency ul li {
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 5rem;
+}

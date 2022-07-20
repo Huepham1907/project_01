@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.banner {
+    background-color: #003580;
+    width: 100%;
+    height: 7rem;
+    display: flex;
+}
+
+.logo-booking {
+margin-left: 10rem;
+margin-top: 2rem;
+}
+
+.banner .language img {
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-left: 85rem;
+    margin-top: 2rem;
+}
+.banner .support svg{
+    width: 15%;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.support svg {
+   fill:#fff;
+}
+
+.form-login h3 {
+text-align: center;
+font-size: 2.5rem;
+}
+
+.form-group  {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+ .email {
+    margin: 0 auto;
+}
+.form-group .email  {
+    display: block;
+}
+.form-group .tag {
+    display: block;
+}
+
+.label-email {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-right: 31rem;
+}
+
+ .email {
+    width: 40rem;
+    height: 4rem;
+    margin-top: 1rem;
+}
+ .btn-email {
+    width: 40rem;
+    height: 4rem;
+    margin-top: 2rem;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    background-color: #0071c2;
+}
+.tag {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.social-links ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.social-links  {
+margin-left: 40rem;
+}
+
+.social-links li:hover {
+padding: 1.5rem;
+border: 1px solid #0071c2 ;
+}
+.social-links li  {
+    margin: 4rem 5rem;
+    
+}
+
+.social-links .color svg {
+   fill:#0071c2 ;
+}
+
+.info {
+    text-align: center;
+    color:#0071c2 ;
+    font-size: 1.3rem;
+}
+.privacy {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: mallory,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+li {
+    list-style-type: none;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.logo-container .logo_agoda img {
+    width: 7rem;
+    margin-left: 3rem;
+}
+.logo-container .logo_booking img {
+    width: 16rem;
+    margin-left: 5rem;
+}
+.logo-container ul {
+     display: flex;
+     margin-left: 52rem;
+
+}
+
+.logo-container ul li {
+    font-size: 1.3rem;
+    margin-left: 2.8rem;
+    color: #89b3fa;
+    cursor: pointer;
+    
+    
+}
+
+.logo-container ul li:hover {
+  background-color: #89b3fa;
+  color:#fff;
+  border: 1px solid #89b3fa;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.logo-container .create_active {
+    border: 1px solid #89b3fa;
+    padding: 1rem;
+    margin-top: -1rem;
+    border-radius: 5px;
+}
+
+.introduction {
+    margin-top: -65rem;
+    margin-left: 14rem;
+}
+.introduction h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+.introduction h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+.introduction h4 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.btn-option {
+    margin-left: 14rem;
+    margin-top: 3rem;
+}
+
+.btn-option .btn-round_trip  {
+    padding: 1.3rem 1rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #89b3fa;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-round_trip i {
+    margin-left: 5px;
+}
+.btn-option .btn-economy  {
+    padding: 1.3rem 1rem;
+    width: 12rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    color:#fff;
+    background-color: #89b3fa;
+    border: none;
+    border-radius: 5px;
+}
+.btn-economy i {
+    margin-left: 5px;
+}
+.booking-option {
+    margin-top: 10rem;
+}
+
+.booking-option-items-1 input {
+    margin-left: 15rem;
+    width: 25rem;
+    height: 6rem;
+    font-size: 1.5rem;
+}
+
+.booking-option-items-2  {
+    margin-top: -6rem;
+}
+.booking-option-items-2 input {
+    margin-left: 39rem;
+    width: 25rem;
+    height: 6rem;
+    font-size: 1.5rem;
+}
+.booking-option-items-3 input {
+    margin-left: 15rem;
+    width: 25rem;
+    height: 6rem;
+    font-size: 1.5rem;
+}
+
+.booking-option-items-4  {
+    margin-top: -6rem;
+}
+.booking-option-items-4 input {
+    margin-left: 39rem;
+    width: 25rem;
+    height: 6rem;
+    font-size: 1.5rem;
+}
+
+.booking-option-items-5 input {
+    margin-left: 15rem;
+    width: 25rem;
+    height: 6rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    
+}
+
+.booking-option-items-6  {
+   margin-top: -6rem;
+   
+}
+.booking-option-items-6 input {
+    margin-left: 39rem;
+    width: 25rem;
+    height: 6rem;
+    font-size: 1.5rem; 
+}
+
+
+.booking-option-2 {
+    margin-left: 50rem;
+    margin-top: -6rem;
+}
+.booking-option-items-7 {
+   
+    border: none;
+    margin-left: 65rem;
+    margin-top: -6rem;
+}
+.booking-option-items-7 ::placeholder {
+    color: #fff;
+    text-align: center;
+}
+
+.booking-option-items-7 input {
+    width: 50rem;
+    height: 6rem;
+    background-color: #89b3fa;
+    color:#fff;
+    border: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    
+}
+
+.wrapper {
+    margin-top: 19rem;
+  width: 152%;
+    height: 22rem;
+    background: #e9ebee;
+    
+}
+
+.row .col-2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+
+.footer-wrapper {
+    width: 100%;
+    height: 32rem;
+    background-color: #2a2a2e;
+   
+}
+
+.description p {
+color:#fff;
+text-align: center;
+padding-top: 6rem;
+font-size: 1.5rem;
+}
+
+.agency ul {
+display: flex;
+margin: 0 auto;
+}
+
+.agency ul li {
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 5rem;
+}
+.label_element h6 {
+color:#fff;
+text-align: center;
+margin-top: 8rem;
+
+}

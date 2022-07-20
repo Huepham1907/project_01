@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #f5f5f5;
+}
+
+
+.container {
+   width: 80rem;
+    font-size: 1.8rem;
+    border: 2px solid rgb(233, 232, 232);
+    background-color: #fff;
+    margin: auto;
+}
+
+.Questions {
+    text-align: center;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 800;
+    margin-top: 4rem;
+}
+
+.Questions svg {
+    margin-right: 13rem;
+    margin-left: 13rem;
+   font-size: 2.5rem;
+}
+
+.Questionaire {
+    
+}
+
+.Questionaire svg {
+    
+    
+}
+
+
+.Questionaire li {
+    list-style: none;
+}
+
+.Questionaire svg {
+
+}
